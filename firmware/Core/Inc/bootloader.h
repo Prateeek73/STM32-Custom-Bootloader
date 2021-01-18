@@ -34,8 +34,8 @@
 #define changeRDP		0x58
 #define ACK				0xA5
 #define NACK			0x7F
-#define verifySuccess	1
-#define verifyFail		0
+#define verifySuccess	0
+#define verifyFail		1
 #define optionBytes		0x1FFFC000
 #define invalidSector	0x04
 #define flashBaseBegin	0x08000000
